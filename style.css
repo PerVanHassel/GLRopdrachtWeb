@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: rgb(177, 177, 177);
-    height: 100vh;
+    background-color: rgb(133, 133, 133);
+    height: 133vh;
 }
 
 .header {
@@ -67,10 +67,14 @@ body {
 }
 
 .body-main {
-    display: flex;
-    align-items: center;
     font-family: 'Poppins', sans-serif;
 }
+
+.body-head {
+    display: flex;
+    align-items: center;
+}
+
 
 .Logo-pd {
     width: 27.5rem;
@@ -87,7 +91,7 @@ body {
 }
 
 .btn-homepage {
-    background-color: #757575;
+    background-color: rgb(202, 202, 202);
     border: 4px rgb(110, 199, 174) solid;
     border-radius: 25px;
     /* width: 30rem;
@@ -95,15 +99,27 @@ body {
     padding: 3.5rem 7.5rem;
     margin-top: 8rem;
     margin-left: 6rem;
-    color: rgb(200, 200, 200);
+    color: rgb(117, 117, 117);
     text-decoration: none;
     font-size: 2rem;
     font-weight: 600;
     text-align: center;
-    transition: all 250ms;
+    transition: border 250ms, border-radius 250ms, box-shadow 450ms;
 }
 
 .btn-homepage:hover {
-    border: 9px rgb(110, 199, 174) solid;
+    border: 7px rgb(110, 199, 174) solid;
     border-radius: 40px;
+    box-shadow: 3px 5px 9px 0px black;
+}
+
+/* Keuze deel */
+.body-keuze {
+    background-color: rgb(202, 202, 202);
+    width: 45rem;
+    height: 90%;
+    margin-left: 7.5rem;
+    padding: .5rem 1.5rem;
+    border-radius: 15px;
+    border-bottom: 7px rgb(110, 199, 174) solid;
 }
