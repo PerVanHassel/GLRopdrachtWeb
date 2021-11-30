@@ -1,136 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
-body {
-    background-color: rgb(133, 133, 133);
-    height: 100%;
-    margin-bottom: 10px;
+.wrapper {
+    display: flex;
+    justify-content: center;
 }
 
 .header {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(158, 158, 158);
+    width: 1350px;
+    height: 120px;
     display: flex;
-    position: relative;
-    box-shadow: -2px -11px 13px 17px black;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8E8E8E;
+    border: 4px solid #00FFB7;
+    margin: 10px 15px 0;
 }
 
-.header-title {
+a {
+    text-decoration: none;
+    color: #DDDDDD;
+}
+
+.header-title-wrapper {
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding-left: 4rem;
-    font-weight: 500;
-    font-size: 2rem;
 }
 
 .header-avatar {
-    width: 6rem;
-    height: auto;
-    padding-top: .5rem;
+    width: 78px;
+    padding-top: 0.9rem;
+    margin-left: 54px;
 }
 
-.header-navs>a {
-    text-decoration: none;
-    color: rgb(200, 200, 200);
-    font-size: 1.3rem;
-    background-color: #757575;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    border: 4px rgb(110, 199, 174) solid;
-    border-radius: 25px;
-    font-weight: 500;
-    transition: all 250ms;
+.header-title {
+    font-size: 30px;
 }
 
-.header-navs {
-    height: 100%;
-    position: absolute;
-    right: 0;
+.nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 2rem;
 }
 
-.header-navs>a:hover {
-    border: 6px rgb(110, 199, 174) solid;
-    box-shadow: 0px 0px 13px 0px black;
-    border-radius:5px 25px 5px 25px;
-}
-
-.nav-option-2 {
-    margin-left: 2rem;
-}
-
-.nav-option-3 {
-    margin-left: 2rem;
-}
-
-.nav-option {
-    cursor: pointer;
-}
-
-.body-main {
-    font-family: 'Poppins', sans-serif;
-}
-
-.body-head {
+.nav-a {
     display: flex;
     align-items: center;
+    border: solid #00FFB7 3px;
+    border-radius: 28px;
+    margin: 0 5px;
+    padding-right: 20px;
 }
 
-
-.Logo-pd {
-    width: 27.5rem;
-    height: auto;
-    margin-top: 8rem;
-    margin-left: 7.5rem;
-    /* box-shadow: 2px 2px 2px black; */
+.icon {
+    font-size: 50px;
+    color: #00FFB7;
 }
 
-.logo-pd-svg {
-    font-size: 2rem;
-    width: 27.5rem;
-    height: auto;
-}
-
-.btn-homepage {
-    background-color: rgb(202, 202, 202);
-    border: 4px rgb(110, 199, 174) solid;
-    border-radius: 25px;
-    /* width: 30rem;
-    height: 10rem; */
-    padding: 3.5rem 7.5rem;
-    margin-top: 8rem;
-    margin-left: 6rem;
-    color: rgb(117, 117, 117);
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: 600;
-    text-align: center;
-    transition: border 250ms, border-radius 250ms, box-shadow 450ms;
-}
-
-.btn-homepage:hover {
-    border: 7px rgb(110, 199, 174) solid;
-    border-radius: 40px;
-    box-shadow: 3px 5px 9px 0px black;
-}
-
-/* Keuze deel */
-.body-keuze {
-    background-color: rgb(202, 202, 202);
-    width: 45rem;
-    height: 90%;
-    margin-left: 7.5rem;
-    padding: .5rem 1.5rem;
-    border-radius: 15px;
-    border-bottom: 7px rgb(110, 199, 174) solid;
+.text-icon {
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-left: 5px;
 }
