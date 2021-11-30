@@ -41,6 +41,14 @@ a {
 
 .header-title {
     font-size: 30px;
+    border-bottom: solid 0 #03a376;
+    border-radius: 0;
+    transition: all 150ms;
+}
+
+.header-title:hover {
+    border-bottom: #00FFB7 solid 4px;
+    border-radius: 2.5px;
 }
 
 .nav {
@@ -54,12 +62,24 @@ a {
     border-radius: 28px;
     margin: 0 5px;
     padding-right: 20px;
+    transition: all 250ms;
+}
+
+.nav-a:hover {
+    border: solid #03a376 3px;
+    color: #eeeeee;
+    background-color: #bbbbbb;
 }
 
 .icon {
     font-size: 50px;
     color: #00FFB7;
+    transition: all 250ms;
 }
+
+/* .nav-a:hover .icon {
+    color: #03a376;
+} */
 
 .text-icon {
     text-transform: uppercase;
