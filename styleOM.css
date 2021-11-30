@@ -42,12 +42,12 @@ body {
 .header-navs>a {
     text-decoration: none;
     color: rgb(200, 200, 200);
-    font-size: 1.75rem;
+    font-size: 1.3rem;
     background-color: #757575;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     border: 4px rgb(110, 199, 174) solid;
     border-radius: 25px;
     font-weight: 500;
@@ -61,7 +61,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 4rem;
+    padding-right: 2rem;
 }
 
 .header-navs>a:hover {
@@ -70,6 +70,10 @@ body {
 }
 
 .nav-option-2 {
+    margin-left: 2rem;
+}
+
+.nav-option-3 {
     margin-left: 2rem;
 }
 

@@ -9,10 +9,10 @@ body {
     background-color: rgb(133, 133, 133);
     height: 100%;
     margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header {
-    font-family: 'Poppins', sans-serif;
     background-color: rgb(158, 158, 158);
     display: flex;
     position: relative;
@@ -76,60 +76,9 @@ body {
     cursor: pointer;
 }
 
-.body-main {
-    font-family: 'Poppins', sans-serif;
-}
-
-.body-head {
-    display: flex;
-    align-items: center;
-}
-
-
-.Logo-pd {
-    width: 27.5rem;
-    height: auto;
-    margin-top: 8rem;
-    margin-left: 7.5rem;
-    /* box-shadow: 2px 2px 2px black; */
-}
-
-.logo-pd-svg {
-    font-size: 2rem;
-    width: 27.5rem;
-    height: auto;
-}
-
-.btn-homepage {
-    background-color: rgb(202, 202, 202);
-    border: 4px rgb(110, 199, 174) solid;
-    border-radius: 25px;
-    /* width: 30rem;
-    height: 10rem; */
-    padding: 3.5rem 7.5rem;
-    margin-top: 8rem;
-    margin-left: 6rem;
-    color: rgb(117, 117, 117);
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: 600;
-    text-align: center;
-    transition: border 250ms, border-radius 250ms, box-shadow 450ms;
-}
-
-.btn-homepage:hover {
-    border: 7px rgb(110, 199, 174) solid;
-    border-radius: 40px;
-    box-shadow: 3px 5px 9px 0px black;
-}
-
-/* Keuze deel */
-.body-keuze {
-    background-color: rgb(202, 202, 202);
-    width: 45rem;
-    height: 90%;
-    margin-left: 7.5rem;
-    padding: .5rem 1.5rem;
-    border-radius: 15px;
-    border-bottom: 7px rgb(110, 199, 174) solid;
+.body-title {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 3rem;
+    font-weight: 500;
 }
