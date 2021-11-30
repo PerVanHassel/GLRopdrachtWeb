@@ -8,6 +8,7 @@
 
 body {
   background-color: #d3d3d3;
+  font-family: "Poppins", sans-serif;
 }
 
 .wrapper {
@@ -16,7 +17,6 @@ body {
 }
 
 .header {
-  font-family: "Poppins", sans-serif;
   width: 1350px;
   height: 120px;
   display: flex;
@@ -99,12 +99,32 @@ a {
 .logo-pd {
   width: 350px;
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 200px;
 }
 
-.container-repo>a {
+.btn-repo {
     background-color: #8E8E8E;
-    border: solid #00FFB7 2px;
-    width: 50rem;
-    height: 25rem;
+    border: solid #00FFB7 5px;
+    border-radius: 10px;
+    width: 375px;
+    height: 100px;
+    display: flex;
+    margin-right: 200px;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0 0 #00ffb7;
+    transition: all 450ms;
+}
+
+.btn-repo:hover {
+  box-shadow: 0px 0px 20px 5px #00ffb7;
+  border-radius: 15px;
+}
+
+.container-repo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
