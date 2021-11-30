@@ -8,6 +8,7 @@
 body {
     background-color: rgb(133, 133, 133);
     height: 133vh;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header {
@@ -27,6 +28,11 @@ body {
     font-size: 2rem;
 }
 
+.header-title > a {
+    text-decoration: none;
+    color: black;
+}
+
 .header-avatar {
     width: 6rem;
     height: auto;
@@ -42,10 +48,10 @@ body {
     padding-bottom: 1rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    border-radius: 25px;
     border: 4px rgb(110, 199, 174) solid;
-    box-shadow: 3px 5px 9px 0px black;
+    border-radius: 25px;
     font-weight: 500;
+    transition: all 250ms;
 }
 
 .header-navs {
@@ -58,6 +64,11 @@ body {
     padding-right: 4rem;
 }
 
+.header-navs>a:hover {
+    border: 6px rgb(110, 199, 174) solid;
+    box-shadow: 0px 0px 13px 0px black;
+}
+
 .nav-option-2 {
     margin-left: 2rem;
 }
@@ -68,4 +79,63 @@ body {
 
 .body-main {
     font-family: 'Poppins', sans-serif;
+}
+
+.body-title {
+    font-size: 3.5rem;
+    position: absolute;
+    left: 75px;
+    top: 150px;
+    font-weight: 400;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: whitesmoke;
+    margin: 25px;
+    width: 25rem;
+    height: 30rem;
+    overflow: hidden;
+    border-radius: 7.5px;
+}
+
+.card-2 {
+    width: 55rem;
+}
+
+.card-title {
+    padding: 1rem .5rem;
+    font-size: 2rem;
+}
+
+.card-pic {
+    width: 25rem;
+    height: auto;
+    transform: translateY(10px);
+    z-index: -5;    
+}
+
+.cards-left {
+    margin-top: 570px;
+}
+
+.card-content {
+    padding-left: 10px
+}
+
+.card-3 {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 31.5rem;
+}
+
+.card-pic-2 {
+    width: 60rem;
 }
