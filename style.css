@@ -26,6 +26,7 @@ body {
   border-bottom: 4px solid #00ffb7;
   margin: 10px 15px 0;
   border-radius: 10px;
+  box-shadow: 0px 5px 5px 0px rgb(75, 75, 75);
 }
 
 a {
@@ -277,20 +278,20 @@ a {
 
 .card-bg2 {
   background-image: url(assets/bg-design.jpg);
-  background-position-y: -140px;
+  background-position-y: -506px;
   background-attachment: fixed;
 }
 
 .card-sub2 {
-  color: #e2e2e2;
-  font-weight: 600;
+  color: #4e4e4e;
+  font-weight: 700;
   /* background-color: #36363673; */
   padding-left: 4px
 }
 
 .card-cont2 {
-  color: #747474;
-  font-weight: 500;
+  color: #4e4e4e;
+  font-weight: 600;
   /* background-color: #36363673; */
 }
 
