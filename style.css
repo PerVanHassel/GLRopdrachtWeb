@@ -252,3 +252,62 @@ a {
   color: rgb(3, 3, 138) ;
   text-decoration: solid rgb(3, 3, 138) underline;
 }
+
+.cardstk-wrapper {
+  background-color: #8e8e8e;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 7.5px;
+  width: 600px;
+  color: #e2e2e2;
+}
+
+.cardtk {
+  background-image: url(assets/bg-code.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  width: 250px;
+  padding: 10px 5px;
+  margin: 0 10px;
+  border: 5px solid #5a5a5a;
+  border-radius: 10px;
+}
+
+.card-bg2 {
+  background-image: url(assets/bg-design.jpg);
+  background-position-y: -140px;
+  background-attachment: fixed;
+}
+
+.card-sub2 {
+  color: #e2e2e2;
+  font-weight: 600;
+  /* background-color: #36363673; */
+  padding-left: 4px
+}
+
+.card-cont2 {
+  color: #747474;
+  font-weight: 500;
+  /* background-color: #36363673; */
+}
+
+.cardtk-subtitel {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+
+.cardtk-content {
+  font-size: 15px;
+}
+
+.container-tk {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  
+}
