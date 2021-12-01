@@ -185,6 +185,11 @@ a {
   border-radius: 10px;
   padding: 5px 10px;
   margin-bottom: 20px;
+  transition: all 150ms;
+}
+
+.OM-wrapper:hover {
+  box-shadow: 5px 5px 8px 3px black;
 }
 
 .OM-logo {
@@ -267,6 +272,12 @@ a {
   margin-bottom: 25px;
   height: fit-content;
   border-radius: 25px 0 25px 0;
+  transition: all 175ms;
+  border: 0 black solid;
+}
+
+.cardstk-wrapper:hover {
+  border: 7.5px black solid;
 }
 
 .cardtk {
