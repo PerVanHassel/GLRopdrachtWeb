@@ -172,6 +172,7 @@ a {
   border-radius: 10px;
   border-bottom: solid #00ffb7 5px;
   border-top: solid #00ffb7 5px;
+  box-shadow: 10px 10px 20px black;
 }
 
 
@@ -220,7 +221,6 @@ a {
   border: solid #00ffb7 5px;
   /* border-right: solid #00ffb7 5px; */
   border-radius: 12.5px;
-  
 }
 
 .flexbox-OM {
@@ -257,11 +257,16 @@ a {
 .cardstk-wrapper {
   background-color: #8e8e8e;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   padding-top: 7.5px;
   width: 600px;
   color: #e2e2e2;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: fit-content;
+  border-radius: 25px 0 25px 0;
 }
 
 .cardtk {
@@ -271,7 +276,7 @@ a {
   /* background-attachment: fixed; */
   width: 250px;
   padding: 10px 5px;
-  margin: 0 10px;
+  margin: 5px 10px;
   border: 5px solid #5a5a5a;
   border-radius: 10px;
 }
@@ -280,6 +285,33 @@ a {
   background-image: url(assets/bg-design.jpg);
   background-position-y: -506px;
   background-attachment: fixed;
+}
+
+.card-bg3 {
+  background-image: url(assets/bg-study.jpg);
+  background-position-y: -240px;
+  background-position-x: 210px;
+  background-attachment: fixed;
+}
+
+.card-bg4 {
+  background-image: url(assets/bg-kantoor.jpg);
+  background-position-y: -240px;
+  background-position-x: 210px;
+  background-attachment: fixed;
+}
+
+.card-sub3 {
+  color: #dadada;
+  font-weight: 700;
+  /* background-color: #36363673; */
+  padding-left: 4px
+}
+
+.card-cont3 {
+  color: #d1d1d1;
+  font-weight: 600;
+  /* background-color: #36363673; */
 }
 
 .card-sub2 {
@@ -300,15 +332,16 @@ a {
   font-weight: 600;
 }
 
-
+.flexbox-wrapper {
+  display: flex;
+}
 
 .cardtk-content {
   font-size: 15px;
 }
 
 .container-tk {
-  height: 100vh;
+  height: 145vh;
   display: flex;
   justify-content: center;
-  
 }
