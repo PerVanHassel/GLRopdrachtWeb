@@ -102,6 +102,13 @@ a {
   margin-left: 200px;
 }
 
+.logo-pd-2 {
+  width: 350px;
+  position: absolute;
+  right: 45px;
+  margin-top: 50px;
+}
+
 .btn-repo {
     background-color: #8E8E8E;
     border: solid #00FFB7 5px;
@@ -169,4 +176,30 @@ a {
   height: 518px;
   object-fit: cover;
   transform: translateX(50px);
+}
+
+.OM-wrapper {
+  background-color: #8E8E8E;
+  width: 550px;
+  margin-left: 70px;
+  margin-top: 50px;
+  border: solid 4px #00ffb7;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.OM-title {
+  border-bottom: #00ffb7 solid 2px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.OM-subtitle {
+  font-size: 25px;
+}
+
+.OM-Content {
+  font-size: 15px;
+  border-bottom: #00ffb7 solid 2px;
+  /* border-radius: 2.5px; */
 }
